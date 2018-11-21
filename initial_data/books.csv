@@ -1,0 +1,8 @@
+title,author,description,image,brand
+I Love Ruby,Karthikeyan A.K,Get started with the greatest programming language made for humans.,cover.jpg,Ruby
+Developing Games With Ruby,Tomas Varaneckas,Break laws of physics and design artificial intelligence.,hero.jpg,Ruby
+The Bastards Book of Ruby,Dan Nguyen,The Bastards Book of Ruby is an introduction to programming and its practical uses for anyone whose job is to seek out and show the hard-to-find data.,main.jpg,Ruby
+OpenSSL Cookbook,Ivan Ristic,A guide to the most frequently used OpenSSL features and commands,openssl.jpg,Security
+Security Engineering,Ross Anderson,A guide to building dependable distrubiting systems,seceng.jpg,Security
+Working With Web API'S,Launch School,This book covers the basics of how web APIs work and how to interact with them,web_api.jpg,Software Architecture
+Software Architecture Patterns,Mark Richards,The success of any application or system depends on the architecture pattern you use.  This O’Reilly report takes a deep dive into many common software architecture patterns.,sac_arc.jpg,Software Architecture
