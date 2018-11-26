@@ -9,4 +9,5 @@ urlpatterns = [
     path('', views.index, name='home'),
     path('admin/', admin.site.urls),
     path('accounts/', include('registration.backends.simple.urls')),
+    path('books/<slug>/', views.book_detail, name='book_detail'),
 ]

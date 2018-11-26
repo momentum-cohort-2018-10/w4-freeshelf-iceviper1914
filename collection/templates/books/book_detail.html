@@ -1,12 +1,11 @@
 {% extends 'base.html' %}
 {% block title %}
-    Homepage - {{ block.super }}
+    {{ book.name}} - {{ block.super }}
 {% endblock title %}
 
 {% block content %}
     {% for book in books %}
     {{ book.image }}
-     <h2><a href="{% url 'book_detail' slug=book.slug %}">{{ book.title }}</a></h2>
     <h2>{{ book.title }}</h2>
     <h4>{{ book.author }}</h4>
     <p>{{ book.description }}</p>
