@@ -4,11 +4,9 @@
 {% endblock title %}
 
 {% block content %}
-    {% for book in books %}
     {{ book.image }}
     <h2>{{ book.title }}</h2>
     <h4>{{ book.author }}</h4>
     <p>{{ book.description }}</p>
     <p>{{ book.brand }}</p>
-    {% endfor %}
 {% endblock content %}
